@@ -33,6 +33,7 @@ class _AppContadorState extends State<AppContador> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Entrada - PUB',
       home: paginaPrincipal(),
     );
